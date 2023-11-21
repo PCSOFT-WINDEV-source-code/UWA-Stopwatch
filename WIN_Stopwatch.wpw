@@ -1,0 +1,431 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Stopwatch
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Stopwatch
+ identifier : 0x267979450101c770
+ internal_properties : CAAAAAgAAAAE2nd6owVBV7Q7g09qvajUzX1058jTK5EFrX5k4szYD9ZP+BOPsItMfZNu/jJyCkRBTdcMMsuM3uOUQH6auCTcWh52XQC0SyygcBDyz5xMSSu+5LW5++gZ+Ax0vUYMcsYfdXx1by7WkQ0dfNDfxc0N6lIX27Vt1k17sqct2N1J5mpD7PGql+ahBXTA/lxklr8Xd1osmCzS7fjMojRpjnmXQtLE+hvQjIH6OcMQqM8BlGWd8AiIa1atzbStuXO6UYfP2A0ue16OcXzJCUd4a7O1QFpfr0mlv4HeW7qZSKVaHzuo5JTHS2H84PxuR90Who28qyD5C6LT9rYupxBdrYz8GBiJDMlDGxaOTin+ngKiYjsjBspkQySlyoKNwo0DQ4hiMtt6VSyHTZjNOhG1ujuGkhkVQYb33uypIKDuLcwP1miVt6yLKTuToLJxxvo+tfpML8wnEsIUtjlzEC7dkCUnnOOTit+etoMbT9NHZODfmRfq3c/LuU0QC/7TDHCpa8Ala1IAT33LGwThtlsyYFkYMLUnb8DLoQbr79nlAc+BaMj1Fd+woL8Wu8v9/7N6n5go9ywaOUvOpNnx8R96zB2CkM8NuxCJxb1FBRsEs/Gk+/rjFB8tSCFFXUJ7YdhoD4eW2OSvcHWnYTic/nZiGVbhM4S+r3YG1u1lhwbYnVMqX62J2kYMBfHs7VFs9xSCy5pD5u44s7tZx/7g3nPGEEkrmmP/
+ properties :
+  width : 322
+  height : 512
+  heightMin : 534
+ controls :
+  -
+    name : IMG_Hour
+    identifier : 0x267979450102c770
+    internal_properties : CAAAAAgAAACQ+OR/7gLcF6Kxcd1Lfl9eykm1wFi4cSUxrzbm5ZHOPMuS0NDPinlVxCpywAYype4hP/6QxjXCCE0LNdDncfaPF4R+rb1qZhSYGKLqUeOm0WtAyn+aaol+9NVnWNMxQRSn1R52oiS+b1pnwXQWr76bhYCIIb6c/sUc7xlEV2kFsE2B9Js3EYsepdOkwUVh9+vC7+jExWDe2yCmRx2vEdwO8lvxNGVVCCPEqjMYJIPz0MD6vw/9hsHGbCe/l7vaBfk0dELkrplzNZC9WJKhs4mg4AHqQ7TkNMjVubMEHIr8WfWN4jzIUeHk/MFb2chH97W2MEC0J1kAtGVGw27ogTo4V6U1VA1rnd+4GwNjBk/a4CIrAxoLUpCm0Bls0dFKuzVInc0/n6862IZ5ipApn8GXmJfYkW3IoDi0edywwtHgKTB3yKNG1ZzBEi1IyFkN/+WoTqHpiV5hUe0026Ln2B9a5UFGAG7NsqJ/Np0FdtmiCjVljPUGqGjZ6qz+Bh1/6U3FiONv39X4sR+dXAgMesltofGNczbPwJUuffUSUg7e6FGDyVnGXmhgcUTtWNmGaLwpZbcfz8vUuB7Vkml74y+b3VwerT8GT8Z7M1CWizEX3PF8TaclxrfxvxQ2ehiGN6eUCBa2aF38S4EOEl7ctJUzL0bxeqzX/QXBvIJQ85uJBpFEJzLHzgegjPhSad0wKqYxSK8W/b6L9Fko8wcXn9Us12zk02ie/ioAtWIw4rbKMTuE+1Hf8VBxwzWsi/zo1zfmJSUmquerTiIMchc/4eIR/Nfv1J/vxCx9J0GIR3ergcqgll/aLBZ9JjaZ9UCCeYUgrXOTZiPnm5o3F2fjhA==
+    properties :
+     x : 79
+     y : 93
+     width : 162
+     height : 181
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : EDT_Duration
+    identifier : 0x267979450103c770
+    internal_properties : CAAAAAgAAAAACXVs5s6iYrX5ThFP4WofBDcpWuCDSWBKxFpfElgIypbWrnhB9wWJzRaiIX8cJUQsROE4YcztmWJikkl4QeuWwR+BtovLAfvvLjoA9HOfoZAn+yb6IpL2cAxcUwB6n4lKiDi3L8e113SRcZuy8uf6Ngpik4OxEV3MHt0kCicPdDW52syAGfz9b1fnj0wr7uDB2yNa0BJXoRP7YCyHqC73b2aAih+KakqdKw3ZMVe3aLY5AOFMZ/pr+qT2E3nQ8xgb14PyZXjUk8R3S00lMGLYEntyYtYrt6dCefwXpQvZPe3OG5pESAT+20+1YmNedmwSjoNwbZKGmrZPqqdq9YgX2i5Y97aTtLuohUPA7HeIJR3PUlxix+b7sYvlFEpUZmlGLbNX/XHApxvxrO4dqrGe529T7EGdJjvu0IHvkAckR3ZcZdI0DtDod95wo22SvhG1HzllZE6b9bfUGgJCS4vzK7UIngYu+3dmF2JZ60zKQ8UYl0ENRC6xVqjjz5iKv+nzIUu9AuaJdYL9E6n2yEt8Kx9zA6h80Ia7W/5XQUuG88VfjoY89RZ89M+fgflgW8Qfr/G1Hy5cnAiSh45Pn80Xc8yZFBnI+CaOYkdGi3bucv35MTGL3R0JIpqQok/agsx2zYMWl2bB6ds4sGCMdmoo9aQmwF5gyUB4RISH8yok/RNI8o7as9IxJUFgnRlzRkyQIMinUEk45ayL6R70R+MV2NJuBURd3dTU6SQfars/1FivUQI0yIXxii6RRG4i5c36wFZfQt2mpOtAl01w3qc3w0IE7ubK83vtoXMFWUywn8q++zuicfr0O86EFmQ3FhA32Zaqgp9ggP6wP5YSpMtlPOKvkPHM1WMzh93SE9eElMPSXYJ0E52h8ufN46RcjGw1KIQ2MT9v5kJy9+PO/OjXPIlLcwC2gl93apDNDKsAVQ8iOidWNNm80FcAsxL5Q5M4mQMmq++p4cTtDoWP2YGndrS00CjUpB8D/HMNzXFfnldrduXGu8YgGhn3pdEmYb/s5BOiz/TPrG21bB+cXTFbN1FQ1MGKN3mwMrUcGVoq22LvZedT8OQ9U/2zb1K60xYI9R85TcfdkYuJanu+4zAxlJALaeZBjQspzGVWM7kt6MA1Z7d8HBkktZJ+xYGkP9WbSjm35zmAmAIcwjk7L3tg1XHyKfPVuJeT7rBLug7E/Ex9pmSpy65WMamzi366lIYoACi/hrLTUZ4ORnzF2jzrE68PUGGTHqQsDKZfYiUdHZbwVM9/OqINKrJmM6/1NCD70N8vHff32+qx075pS80Q74WAZk8tCQg=
+    properties :
+     x : 47
+     y : 356
+     width : 226
+     height : 44
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : BTN_Start
+    identifier : 0x267979450104c770
+    internal_properties : CAAAAAgAAABdFL4Si1ovZKD0WLuYbx+WtPKgH6MeqzmsbyGuo0YJ650u+o7TYfvRBXpn2bcfeKXG4vkPbFbLioqcFGFiuVZyvrbS2sDKXiHLBnBAunmuzBug4TZfxQ4VWBP5Ryf+qeCrt/6FkG7qq/g3R+h8wYrkWJlG3TX0aC0O1PduK0i2fuFjBL59I0ZJKuxYbEVsOGqm+g9yf4/HAQsK2Bzx1ORd+aekAVcTImyyQpYjIo9SRh/Fb3RxyV2upNTAkE1x3l49gpe5Wr7wjMSPykOCogyNdclk7hcf9e8wp8fEgU8qBAhDZR3i0QjjoVqywBXcqWW8CRPfu6Cy8JZ3iJC9U5twlV6CJjTs87it0Xdy5RWQhx7Y/khOzZ0a+G02ETtYeGgItqMUeZPmAhK5sReKzhzAJAUr9qn/dhXs04dZnyVhiDdKFjXRbHGJeDoxaSH47Xj3wmTt+kMC74DjA16rH5kJFFZx1TnWDwb60Jm/uHDrFxBaFeTCSqHlaO2tioXPtP7yit+lSgD2LaEOpgODWjENxBjnfTQnjceLb6rCmCBs/U2KD6O09icPVwLe9tGU1Pd0cb2PGl+UxlD4etBYmbzSllux5ZgMmfGN8xtBAVcFq4ROp7DQm/YkOTXKz+ftN8hrR/0/AHYY278cwM7KRvaKYbr7K17gKxwiw97eTQS0AahIYspyyh7ThFp43ecUKMw/EfYGP7lXhVKfD6R5GogQsNCX3+JFUJd4pRwczJ7GLI5trI3x4Yr00+ZxHBVBC9oip5oVtLHX8sEyyn6b4TNc9TN4eSZGHC1y02rzoQZxOjENajeathlOVYJLZ40oBJVup42duZZ53Dqy7Fdvc+yCAfNvUDdWgwPw5+6CaTJa1itTIrRBKSxxvuVRavtJU9gVpbw0l+AdTPBw4sAJCFNjJxryDGOtRqDfHs1/j1OKz3SXtmv4T6arFIO3xU/YHYd/K211qDc=
+    properties :
+     x : 10
+     y : 8
+     width : 147
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACbXULZSXZuNo9Mn5rEj3BJA12MnOiN45vPMjMgCNXPz9FcbjhzkNFN2INDFEhmHX5XOrpQYNQSxN5dCP3wQM5kbZE0u/W8yJgkjqIcpuLoOouJ+NOqezZHAMitxOeRJ5SV1adRUqsaAvTGZzw=
+        code : |1+
+         
+         //If there is a start time for the stopwatch, it means that time calculation resumes after a stop
+         IF gbPause THEN
+         	
+         	//Duration not to count in milliseconds (it is a cumulated duration for all the stops performed)
+         	duDuration is duration = ChronoEnd(2)
+         	gduTimeNotCounted += duDuration
+         	gbPause = False	
+         	
+         ELSE
+         	
+         	//Otherwise, initialize the beginning of the stopwatch
+         	ChronoStart(1)
+         	gbChronoStarted = True 
+         	gnTimerNum = TimerSys(duration,50)
+         	
+         END
+         
+         BTN_Stop..State = Active
+         BTN_Pause..State = Active
+         BTN_Start..State = Grayed
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Pause
+    identifier : 0x267979450105c770
+    internal_properties : CAAAAAgAAAAv/lgwLXyxxloesuTDMChqKjubRS0wpzAKjYXzmPPW02gKxvmGwbg0SsPz9ZjUEWPUyjAMnG+mVadUA3699gqZbUmNLptbwxrxmFmzkUgTaQ6dEw23wo2YB3BUC5QkvKJ9mYhVyoLgURDPXTKCVezGRPUycQMcDo9OtBnYSQTYHB1n8NpHB7AHckQWHhB3xpoYHGVESzXvZT384HT5zmBd89muH0Op8ljAUJLT+nkmuv2btX6hGzF2nl4Q8M3DorIj0MXDclio0HrtNluSZFD5x/NK4PdJgcPG9VfMifk6WE4xc9/ut2RHk+Sy3AHKORVO8919F4aW1CS1fHAl3RtMA6R4oDT+57yny2fm4VNka1Sm+LZe9wFadut+5YeOHAi2xP1qSZXqAhy7vQuGjDjkylP50JmpNhVGRVt1i+PR6LEEhP8NWsG9WuRFfZ2GTdgVMJazWk2mA9qlR477oUlZPiBzkwmoYxrkImUGKfVqiPV3NO3zT24wpWLCmQ5M1+NLU6p6c93TCHov59o8R8imEd0+fkEAZi7QJM+VlXHTJmazpgytC/TaaBvX9cqRz+xlYpC867zJ/emBA6t1chtr0zio1o01Ati6oHgARhDA2NUPZnkZUKPj/kKHJhTW4jXYFDBslbe5+pw5DZ3nB23LIqtmaFvhFPfHcJvB4pUDyhXtFZ+Tj7v+8Q9tHCT9z23omg1HCJ400O/ktOfiZyNtcXG2ALNajWIl6tGjQQ9N7ZMKNxJ+YhP/LE96+1IiLvfTwDX61TYQ0+npoYPmrMwzrHq54AWVd3aJehHsPHGK0VDML5L96Wif+OUeeJwnBVTBCk46HBdOgBLBC4Uhw7IQg/x6akMQW1se86JepB7AYKdhoc98yvfL1v0JwhomFGeSGeyYeL4wzWE56rFe91ZmD+Q6DR1N1SUg0+Dk4vKM15xPJmyytwaYeoRZG+UyuyGZzY9Tzsk=
+    properties :
+     x : 166
+     y : 8
+     width : 147
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         //Suspend the stopwatch
+         gbPause = True
+         
+         //Time the time passed that must not be counted
+         ChronoStart(2)
+         
+         BTN_Pause..State = Grayed
+         BTN_Start..State = Active
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Stop
+    identifier : 0x267979450106c770
+    internal_properties : CAAAAAgAAADyFejQcmR9P4+6qsBqkRXJaphFaePvxVdgHLMo857fk4bBL8GZuumAX6k9ISfZq91eimtTPQuPVURlXP4e++qyDD5to4ccj+b0cBK+Du85vVYQ3QvWp4xrWMCEeenjR93AAP+qXD2v5+qVmv0GRXDoGJgscJpesBQcrW2UWZ6XN3hIiHjD8aGjUsK0pYMpHv4POr2smt09zp7dnSqJoPubNhvbJ4SIr+Gw6ebz+Ireu1CBJSvTEmjqPh2A+wltFu2N3o02Swgvmrc/ellL420oXAxlGpBeCetAA32wikmMJiKTt3PWMdmkLceVJdbG9JYIAYI90F846zjfvZnubZq3RxTRqc1IXEE/AgQK/xp1ST5C1/OFiC/FTUyfsf89+w35HHyrARQiFJzrDsglQXuYgH/72vjPbKQYXm84BVJZbEiSZqI0jL9aw8TZqqh8vCkZDnjqaMxILRtSUYNnfdj7s6AMIHwsM/KvFnPkh28H4o69MRq/nRmujC3H8UBEguUMUSenbQ/s0O12rIhGISeGUFlBURNooxh7szSPQ4tmXm9ny7XJw/MYNXRqywBX0PQ+BhPvtyakBQKuKpeHkpBvcpJBu60PkTizdb/qykitRg4bc0o5WODNeyPKUAbmu7EFnqP7Q/0ckJ1mUI8pq/6JP/0PdWNRf6HcGQpnCHV0ho6DPNInJc6+FNaCZKKb1JHBviK0gBJlVMwd55M0ERRpPJ8NrzkkqLAoEdr/24u4SwzGnKMqFkqJz4bjXZ7Qs9uGwiuX4Qaq9rLX/PPxMpbX0FaV7jub3MnlnuAduk2K69c6xdBU9pgrlS0n42yLIR1BD152Wj9Zmo8t7Pu1nw1+rGg3G1cC0BF54kuOVmqxeu7bfOIcLCAlgfzWbojwFd/ZnTkxJHwJ6SLeOYkQBXfwlg5dUN0rgKMJEA+izBaJW6EpxxEmeV/85AXu8Lz5vXO0IOlh1Q==
+    properties :
+     x : 89
+     y : 438
+     width : 156
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         //Stop the stopwatch
+         EndTimerSys(gnTimerNum)
+         
+         IF gbChronoStarted = True THEN
+         	ChronoEnd(1)
+         	gbChronoStarted = False
+         	
+         END
+         
+         //Re-initialization 
+         gduTimeNotCounted = 0
+         gbPause = False
+         
+         EDT_Duration = "00:00:00"
+         
+         InitializeHands()
+         
+         
+         BTN_Stop..State = Grayed
+         BTN_Pause..State = Grayed
+         BTN_Start..State = Active
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2767af2f0235be70
+  internal_properties : CAAAAAgAAAAE+Y1QohQ2ZUxs/2Sf5u6Dzq8PwiJzc5jfZx6lr5JXwipaytC6yV37zSuZ/USk29afjsp1vpvwNaplnqCID+uL1cgyrzz+55UmYrGyMSSXKVeohFN4L5smYwHOnXEPijSYL0+9qungWndteRLR5SYzWEQJ4Plq+KAa4KCl3XIDjeo/P5KJF6+Ik4tUusRZNHAhV+bnsTenbrU9oue+JBw43QmXjoVIMZ5vpIAy3dp0XED1dNzblVK7JBSepK4Sgoh2RBE+WYvviTCDz7Pntn0OAGZVVZsJYgdG7g==
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADDNcVo1OmfcBt8DAQe5KIEYff9GvVJ3rswmi7Y4eSSLPPsowxvw2EHHELoMr1+S2K6sQOAgj+bSIfUU2hKchamhly5uvBBstjigbguCmpR+jvoShIH8x2wi/6fBA==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAADLS5FdAJvN4Lz6CE2pbPNBn6wN+9tXKkjtwvAb4S1vBY7D1ZS5vDnciJIaKAfA3LpM6N9WOIMRI8nkXwb8BFPeSMoYifjiI8mj
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      //Time that must not be counted
+      gduTimeNotCounted is duration
+      
+      //Are we in pause?
+      gbPause is boolean
+      
+      //Number of the timer run
+      gnTimerNum is int
+      
+      gbChronoStarted is boolean
+   -
+     code : |1+
+      //Draw the hands at 0
+      InitializeHands()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      EndTimerSys(gnTimerNum)
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : Duration
+     procedure_id : 1619458878283237232
+     type_code : 14
+     code : |1+
+      //Displays a duration as an analog hand in an image control
+      // Syntax:
+      //Duration ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      PROCEDURE duration()
+      
+      nXCenter, nYCenter			are int				//Coordinates for the center of the stopwatch
+      sNameTimeControl				is string = IMG_Hour..Name	//Name of the control where the hands will be displayed
+      nLengthMinuteHand	is int					//Length of the minute hand
+      duDuration						is duration 					//Duration (difference) to display
+      
+      IF gbPause THEN
+      	RETURN
+      END
+      
+      //Calculate the coordinates for the center of the stopwatch	
+      nXCenter = {sNameTimeControl,indControl}..Width/2
+      nYCenter = ({sNameTimeControl,indControl}..Height+20)/2 
+      
+      //Calculate the length of the minute hand (margin set to 30 on the smallest border)
+      nLengthMinuteHand = Min({sNameTimeControl,indControl}..Width/2,{sNameTimeControl,indControl}..Height/2)-30
+      
+      //New drawing
+      dStartDrawing(sNameTimeControl,dErase)
+      
+      //Time passed
+      duDuration = ChronoValue(1)
+      
+      //Deduces the duration that must not be counted
+      duDuration = duDuration - gduTimeNotCounted
+      
+      //Draw the hands
+      DrawHours(duDuration, nLengthMinuteHand, nXCenter, nYCenter)
+      DrawMinutes(duDuration, nLengthMinuteHand, nXCenter, nYCenter)
+      DrawSeconds(duDuration, nLengthMinuteHand, nXCenter, nYCenter)
+      
+      //Display the time passed	
+      EDT_Duration = DurationToString(duDuration, "HH:MM:SS")
+     type : 458752
+   -
+     name : DrawHours
+     procedure_id : 1619458878283302768
+     type_code : 14
+     code : |1-
+      // Summary: Draws the hour hand
+      // Syntax:
+      //DrawHours (<duDuration>, <nLengthMinuteHand>, <nXCenter>, <nYCenter>)
+      //
+      // Parameters:
+      //	duDuration: Duration to represent
+      //	nLengthMinuteHand: Length of the longest hand, the one for the minutes
+      //	nXCenter: X coordinate for the center of the stopwatch
+      //	nYCenter: Y coordinate for the center of the stopwatch
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE DrawHours(duDuration, nLengthMinuteHand, nXCenter, nYCenter)
+      
+      nAngle					is real						//Angle for the hand
+      nHandColor 		is int = DarkRed		//Color of the hand
+      nLengthHourHand is int 					//Length of the hour hand
+      rX, rY 					are reals					//Coordinates for the top of the hand
+      
+      //For the hour hand: modulo 12 and cross product of 12 in relation to 360 (360°)
+      //+ 90° to go to 12h
+      nAngle = modulo(duDuration..Hour,12)*360/12+90
+      
+      //Hour hand slightly shorter than the minute hand
+      nLengthHourHand = nLengthMinuteHand-20
+      
+      //Calculate the coordinates for the top of the hand
+      rX = nLengthHourHand*Cos(nAngle) 
+      rY = nLengthHourHand*Sin(nAngle)
+      
+      // Draw the line for the hour hand (thickness set to 4)	
+      dLine(nXCenter, nYCenter, nXCenter - rX, nYCenter - rY, nHandColor, 7)
+     type : 458752
+   -
+     name : DrawMinutes
+     procedure_id : 1619458878283368304
+     type_code : 14
+     code : |1-
+      // Summary: Draws the minute hand
+      // Syntax:
+      //DrawMinutes (<duDuration>, <nLengthMinuteHand>, <nXCenter>, <nYCenter>)
+      //
+      // Parameters:
+      //	duDuration: Duration to represent
+      //	nLengthMinuteHand: Length of the longest hand, the one for the minutes
+      //	nXCenter: X coordinate for the center of the stopwatch
+      //	nYCenter: Y coordinate for the center of the stopwatch
+      // Return value:
+      // 	None
+      
+      PROCEDURE DrawMinutes(duDuration ,nLengthMinuteHand, nXCenter, nYCenter)
+      
+      nAngle					is real						//Angle for the minute hand
+      nHandColor 		is int = DarkRed		//Color of the hand
+      rX, rY 					are reals					//Coordinates for the top of the hand
+      
+      //For the minute hand: cross product of 60 in relation to 360 (360°)
+      //+ 90° to go to 12h	
+      nAngle = duDuration..Minute*360/60+90
+      
+      //Calculate the coordinates for the top of the hand
+      rX = nLengthMinuteHand*Cos(nAngle) 
+      rY = nLengthMinuteHand*Sin(nAngle)
+      
+      //Draw the line for the minute hand (thickness set to 2)	
+      dLine(nXCenter , nYCenter , nXCenter - rX, nYCenter - rY , nHandColor,4)
+     type : 458752
+   -
+     name : DrawSeconds
+     procedure_id : 1619458878283433840
+     type_code : 14
+     code : |1-
+      // Summary: Draws the second hand
+      // Syntax:
+      //DrawSeconds (<duDuration>, <nLengthMinuteHand>, <nXCenter>, <nYCenter>)
+      //
+      // Parameters:
+      //	duDuration:  Duration to represent
+      //	nLengthMinuteHand: Length of the longest hand, the one for the minutes
+      //	nXCenter: X coordinate for the center of the stopwatch
+      //	nYCenter: Y coordinate for the center of the stopwatch
+      // Return value:
+      // 	None
+      
+      
+      PROCEDURE DrawSeconds(duDuration, nLengthMinuteHand, nXCenter, nYCenter)
+      
+      nAngle					is real						//Angle for the hand
+      nHandColor 		is int = DarkRed		//Color of the hand
+      rX, rY 					are reals					//Coordinates for the top of the hand
+      
+      
+      //For the second hand: cross product of 60 in relation to 360 (360°)
+      //+ 90° to go to 12h	
+      nAngle = duDuration..Second*360/60+90
+      
+      //Calculate the coordinates for the top of the hand
+      //Note: Length of the second hand identical ot the one for the minutes
+      rX = nLengthMinuteHand*Cos(nAngle) 
+      rY = nLengthMinuteHand*Sin(nAngle)
+      
+      //Draw the line for the second hand (thickness set to 1)
+      dLine(nXCenter , nYCenter , nXCenter - rX, nYCenter - rY, nHandColor, 2)
+     type : 458752
+   -
+     name : InitializeHands
+     procedure_id : 1619458878283499376
+     type_code : 14
+     code : |1-
+      // Summary: Draw the hands while there is no calculated duration
+      // Syntax:
+      //InitializeHands ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE InitializeHands()
+      
+      nXCenter, nYCenter			are int				//Coordinates for the center of the stopwatch
+      sNameTimeControl				is string = IMG_Hour..Name	//Name of the control where the hands will be displayed
+      nLengthMinuteHand	is int					//Length of the minute hand
+      duDuration is duration
+      
+      //Calculate the coordinates for the center of the stopwatch	
+      nXCenter = {sNameTimeControl,indControl}..Width/2
+      nYCenter = ({sNameTimeControl,indControl}..Height+20)/2 
+      
+      //Calculate the length of the minute hand (margin set to 30 on the smallest border)
+      nLengthMinuteHand = Min({sNameTimeControl,indControl}..Width/2,{sNameTimeControl,indControl}..Height/2)-30
+      
+      //New drawing
+      dStartDrawing(sNameTimeControl,dErase)
+      
+      //Draw the hands 
+      DrawHours(duDuration, nLengthMinuteHand, nXCenter, nYCenter)
+      DrawMinutes(duDuration, nLengthMinuteHand, nXCenter, nYCenter)
+      DrawSeconds(duDuration, nLengthMinuteHand, nXCenter, nYCenter)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : ActivVista_0_D_12_30_04__27_11_2006
+resources :
+ string_res :
+  identifier : 0x1767af2500079712
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Chrono.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
